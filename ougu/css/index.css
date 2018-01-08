@@ -1,0 +1,107 @@
+.banner {
+  height: 930px;
+}
+.banner .swiper-container {
+  height: 100%;
+}
+.banner .swiper-slide {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover ;
+}
+.banner .slide1 {
+  background-image: url("../img/homepage/banner1.jpg");
+}
+.banner .slide2 {
+  background-image: url("../img/homepage/banner2.jpg");
+}
+.banner .slide3 {
+  background-image: url("../img/homepage/banner3.jpg");
+}
+.banner .slide4 {
+  background-image: url("../img/homepage/banner4.jpg");
+}
+.banner .pagination {
+  position: absolute;
+  z-index: 20;
+  bottom: 75px;
+  width: 100%;
+  text-align: center;
+}
+.banner .swiper-pagination-switch {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.4);
+  margin: 0 27px;
+  cursor: pointer;
+}
+.banner .swiper-active-switch {
+  background: #fff;
+}
+.content img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.content .module .text {
+  width: 100%;
+  height: 538px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: cover;
+}
+.content .module .bg {
+  height: 848px;
+  line-height: 848px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+.content .module1 .text {
+  background-image: url("../img/homepage/text1.jpg");
+}
+.content .module1 .bg {
+  background-image: url("../img/homepage/bg1.jpg");
+}
+.content .module2 .text {
+  background-image: url("../img/homepage/text2.jpg");
+}
+.content .module2 .bg {
+  background-image: url("../img/homepage/bg2.jpg");
+}
+.content .module3 .bg {
+  background-image: url("../img/homepage/bg3.jpg");
+}
+.content .module4 .bg {
+  background-image: url("../img/homepage/bg4.jpg");
+}
+.content .bigevent {
+  height: 2810px;
+  background: url("../img/homepage/bigevent.jpg") no-repeat center 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.content .brands {
+  height: 612px;
+  background: url("../img/homepage/brands.jpg") no-repeat center 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.content .bread-index {
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 24px;
+  background: #131313;
+}
+.content .bread-index .auto {
+  width: 1203px;
+  padding-left: 30px;
+}

@@ -3,7 +3,134 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link href="css/reset.css" rel="stylesheet">
+		<link href="css/base.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
+		<link href="plugin/swiper-2.7.6/idangerous.swiper.css" rel="stylesheet">
 	</head>
 	<body>
+	<!--header start-->
+		<nav>
+			<div class="header">
+				<div class="auto">
+					<div class="logo fl"></div>
+					<ul class="fl clearfix">
+						<li class="on"><a href="javascript:;">关于我们</a></li>
+						<li><a href="javascript:;">定制</a></li>
+						<li><a href="javascript:;">产品</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	<!--header end-->
+
+	<!--banner start-->
+		<div class="banner">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide slide1"> Slide1</div>
+					<div class="swiper-slide slide2"> Slide2</div>
+					<div class="swiper-slide slide3"> Slide3</div>
+					<div class="swiper-slide slide4"> Slide3</div>
+				</div>
+				<div class="pagination"></div>
+			</div>
+		</div>
+	<!--banner end-->
+
+	<!--content start-->
+	<div class="content">
+		<div class="module module1">
+			<div class="text"></div>
+			<div class="bg">
+				X-BOX音乐耳机  |  让您的耳朵沉浸在无限精彩的音乐天堂中
+			</div>
+		</div>
+		<div class="module module2">
+			<div class="text"></div>
+			<div class="bg">
+				BLUE BONE  |  崔健主题定制系列
+			</div>
+		</div>
+		<div class="bigevent"></div>
+		<div class="module module3">
+			<div class="bg">
+				THOMSON  |  引领潮流的视听巨人
+			</div>
+		</div>
+		<div class="brands"></div>
+		<div class="module module4">
+			<div class="bg">
+				STRATUS  |  美学与声学的完美结合
+			</div>
+		</div>
+		<div class="bread-index">
+			<div class="auto">首页</div>
+		</div>
+	</div>
+	<!--content end-->
+
+	<!--footer start-->
+	<footer>
+		<div class="footer">
+			<div class="auto clearfix nav">
+				<div class="col">
+					<h4>公司</h4>
+					<ul>
+						<li><a href="javascript:;">关于我们</a></li>
+						<li><a href="javascript:;">隐私权政策</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h4>明星定制</h4>
+					<ul>
+						<li><a href="javascript:;">明星定制</a></li>
+						<li><a href="javascript:;">JEEP 70周年手机</a></li>
+						<li><a href="javascript:;">青花馆定制手机</a></li>
+						<li><a href="javascript:;">青花馆定制手机</a></li>
+						<li><a href="javascript:;">I-FI智能热点</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h4>产品</h4>
+					<ul>
+						<li><a href="javascript:;">影音视听</a></li>
+						<li><a href="javascript:;">车联网</a></li>
+						<li><a href="javascript:;">数码产品</a></li>
+						<li><a href="javascript:;">智能家居</a></li>
+						<li><a href="javascript:;">代步工具</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h4>联络我们</h4>
+					<ul>
+						<li><a href="javascript:;">大连高新园区黄浦路610号</a></li>
+						<li><a href="javascript:;">0411-39750879（传真）</a></li>
+						<li><a href="javascript:;">0411-39750878</a></li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="auto">
+				<div class="co-right clearfix">
+					©  2017辽宁欧谷科技有限公司。商标属于各自的所有者，并保留所有权利。
+					<img src="img/homepage/co-right.png" class="fr">
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--footer end-->
+
 	</body>
+	<script src="plugin/swiper-2.7.6/idangerous.swiper.min.js"></script>
+	<script>
+		window.onload = function() {
+			var mySwiper = new Swiper('.swiper-container',{
+				loop: true,
+				autoplay : 5000,
+				pagination : '.pagination',
+				paginationClickable :true
+			});
+		}
+	</script>
 </html>
