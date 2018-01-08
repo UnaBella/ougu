@@ -1,0 +1,9 @@
+.clearfix {
+  overflow: hidden;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
