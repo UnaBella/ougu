@@ -1,0 +1,48 @@
+.content .banner {
+  width: 100%;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: cover;
+}
+.content .banner1 {
+  background-image: url(../img/customization/01_banner.jpg);
+}
+.content img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.content .module .text {
+  width: 100%;
+  height: 538px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: cover;
+  position: relative;
+}
+.content .module .bg {
+  height: 848px;
+  line-height: 848px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+.content .module1 .text {
+  background-image: url(../img/customization/01_text1.jpg);
+}
+.content .module1 .bg1 {
+  background-image: url(../img/customization/01_1.jpg);
+}
+.content .module2 .text {
+  height: 666px;
+  background-image: url(../img/customization/01_text2.png);
+  margin-top: -128px;
+}
+.content .module2 .bg1 {
+  background-image: url(../img/customization/01_2.jpg);
+}
