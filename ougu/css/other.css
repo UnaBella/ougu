@@ -46,6 +46,90 @@
 .cus1 .module .bg2 {
   background-image: url(../img/customization/01_2.jpg);
 }
+.cus2 .banner1 {
+  background-image: url(../img/customization/02_banner.jpg);
+}
+.cus2 .module .text1 {
+  background-image: url(../img/customization/02_text1.jpg);
+}
+.cus2 .module .text2 {
+  background-image: url(../img/customization/02_text2.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.cus2 .module .bg1 {
+  background-image: url(../img/customization/02_1.jpg);
+}
+.cus2 .module .bg2 {
+  background-image: url(../img/customization/02_2.jpg);
+}
+.cus3 .banner1 {
+  background-image: url(../img/customization/03_banner.jpg);
+}
+.cus3 .module .text1 {
+  background-image: url(../img/customization/03_text1.jpg);
+}
+.cus3 .module .text2 {
+  background-image: url(../img/customization/03_text2.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.cus3 .module .bg1 {
+  background-image: url(../img/customization/03_1.jpg);
+}
+.cus3 .module .bg2 {
+  background-image: url(../img/customization/03_2.jpg);
+}
+.cus4 .banner1 {
+  background-image: url(../img/customization/04_banner.jpg);
+}
+.cus4 .module .text1 {
+  background-image: url(../img/customization/04_text1.jpg);
+}
+.cus4 .module .text2 {
+  background-image: url(../img/customization/04_text2.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.cus4 .module .text3 {
+  background-image: url(../img/customization/04_text3.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.cus4 .module .text4 {
+  background-image: url(../img/customization/04_text4.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.cus4 .module .bg1 {
+  background-image: url(../img/customization/04_1.jpg);
+}
+.cus4 .module .bg2 {
+  background-image: url(../img/customization/04_2.jpg);
+}
+.cus4 .module .bg3 {
+  background-image: url(../img/customization/04_3.jpg);
+}
+.cus4 .module .bg4 {
+  background-image: url(../img/customization/04_4.jpg);
+}
+.cus5 .banner1 {
+  background-image: url(../img/customization/05_banner.jpg);
+}
+.cus5 .module .text1 {
+  background-image: url(../img/customization/05_text1.png);
+}
+.cus5 .module .text2 {
+  background-image: url(../img/customization/05_text2.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.cus5 .module .bg1 {
+  background-image: url(../img/customization/05_1.jpg);
+}
+.cus5 .module .bg2 {
+  background-image: url(../img/customization/05_2.jpg);
+}
 .pro1_1 .bannerp1 {
   background-image: url(../img/product/01audioVisual/01_banner.jpg);
 }

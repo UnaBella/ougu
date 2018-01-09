@@ -104,10 +104,17 @@
 .header .headerhover .hhul a:hover li p {
   color: #131313;
 }
-.header .headerhover .hhul a:hover li p {
+.header .project {
+  height: 333px;
+}
+.header .project .projectul li {
+  height: 300px;
+}
+.header .project .projectul a:hover li p {
+  color: #666;
   position: relative;
 }
-.header .headerhover .hhul a:hover li p:after {
+.header .project .projectul a:hover li p:after {
   content: '';
   display: block;
   position: absolute;
@@ -117,15 +124,6 @@
   height: 1px;
   margin-left: -18px;
   background: #666;
-}
-.header .project {
-  height: 333px;
-}
-.header .project .projectul li {
-  height: 300px;
-}
-.header .project .projectul a:hover li p {
-  color: #666;
 }
 .header .project .projectul .t {
   color: #666;
