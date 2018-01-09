@@ -5,9 +5,6 @@
   background-position: center 0;
   background-size: cover;
 }
-.content .banner1 {
-  background-image: url(../img/customization/01_banner.jpg);
-}
 .content img {
   display: block;
   width: 100%;
@@ -32,17 +29,214 @@
   font-size: 40px;
   color: #fff;
 }
-.content .module1 .text {
+.cus1 .banner1 {
+  background-image: url(../img/customization/01_banner.jpg);
+}
+.cus1 .module .text1 {
   background-image: url(../img/customization/01_text1.jpg);
 }
-.content .module1 .bg1 {
-  background-image: url(../img/customization/01_1.jpg);
-}
-.content .module2 .text {
+.cus1 .module .text2 {
   height: 666px;
   background-image: url(../img/customization/01_text2.png);
   margin-top: -128px;
 }
-.content .module2 .bg1 {
+.cus1 .module .bg1 {
+  background-image: url(../img/customization/01_1.jpg);
+}
+.cus1 .module .bg2 {
   background-image: url(../img/customization/01_2.jpg);
+}
+.pro1_1 .bannerp1 {
+  background-image: url(../img/product/01audioVisual/01_banner.jpg);
+}
+.pro1_1 .module .text1 {
+  background-image: url(../img/product/01audioVisual/01_text1.jpg);
+}
+.pro1_1 .module .text2 {
+  background-image: url(../img/product/01audioVisual/01_text2.png);
+  margin-top: -128px;
+  height: 666px;
+}
+.pro1_1 .module .text3 {
+  background-image: url(../img/product/01audioVisual/01_text3.png);
+  margin-top: -128px;
+  height: 666px;
+}
+.pro1_1 .module .bg1 {
+  background-image: url(../img/product/01audioVisual/01_1.jpg);
+}
+.pro1_1 .module .bg2 {
+  background-image: url(../img/product/01audioVisual/01_2.jpg);
+}
+.pro1_1 .module .bg3 {
+  background-image: url(../img/product/01audioVisual/01_3.jpg);
+}
+.pro1_2 .bannerp1 {
+  background-image: url(../img/product/01audioVisual/02_banner.jpg);
+}
+.pro1_2 .module .text1 {
+  background-image: url(../img/product/01audioVisual/02_text1.jpg);
+}
+.pro1_2 .module .text2 {
+  background-image: url(../img/product/01audioVisual/02_text2.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.pro1_2 .module .bg1 {
+  background-image: url(../img/product/01audioVisual/02_1.jpg);
+}
+.pro1_2 .module .bg2 {
+  background-image: url(../img/product/01audioVisual/02_2.jpg);
+}
+.pro1_3 .bannerp1 {
+  background-image: url(../img/product/01audioVisual/03_banner.jpg);
+}
+.pro1_3 .module .text1 {
+  background-image: url(../img/product/01audioVisual/03_text1.jpg);
+}
+.pro1_3 .module .text2 {
+  background-image: url(../img/product/01audioVisual/03_text2.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.pro1_3 .module .bg1 {
+  background-image: url(../img/product/01audioVisual/03_1.jpg);
+}
+.pro1_3 .module .bg2 {
+  background-image: url(../img/product/01audioVisual/03_2.jpg);
+}
+.pro1_4 .bannerp1 {
+  background-image: url(../img/product/01audioVisual/04_banner.jpg);
+}
+.pro1_4 .module .text1 {
+  background-image: url(../img/product/01audioVisual/04_text1.jpg);
+}
+.pro1_4 .module .text2 {
+  background-image: url(../img/product/01audioVisual/04_text2.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.pro1_4 .module .text3 {
+  background-image: url(../img/product/01audioVisual/04_text3.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.pro1_4 .module .bg1 {
+  background-image: url(../img/product/01audioVisual/04_1.jpg);
+}
+.pro1_4 .module .bg2 {
+  background-image: url(../img/product/01audioVisual/04_2.jpg);
+}
+.pro1_4 .module .bg3 {
+  background-image: url(../img/product/01audioVisual/04_3.jpg);
+}
+.pro1_5 .bannerp1 {
+  background-image: url(../img/product/01audioVisual/05_banner.jpg);
+}
+.pro1_5 .module .text1 {
+  background-image: url(../img/product/01audioVisual/05_text1.jpg);
+}
+.pro1_5 .module .text2 {
+  background-image: url(../img/product/01audioVisual/05_text2.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.pro1_5 .module .bg1 {
+  background-image: url(../img/product/01audioVisual/05_1.jpg);
+}
+.pro1_5 .module .bg2 {
+  background-image: url(../img/product/01audioVisual/05_2.jpg);
+}
+.pro2_1 .bannerp1 {
+  background-image: url(../img/product/02telematics/01_banner.jpg);
+}
+.pro2_1 .module .text1 {
+  background-image: url(../img/product/02telematics/01_text1.jpg);
+}
+.pro2_1 .module .text2 {
+  background-image: url(../img/product/02telematics/01_text2.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.pro2_1 .module .bg1 {
+  background-image: url(../img/product/02telematics/01_1.jpg);
+}
+.pro2_1 .module .bg2 {
+  background-image: url(../img/product/02telematics/01_2.jpg);
+}
+.pro3_1 .bannerp1 {
+  background-image: url(../img/product/03digitalProducts/01_banner.jpg);
+}
+.pro3_1 .module .text1 {
+  background-image: url(../img/product/03digitalProducts/01_text1.jpg);
+}
+.pro3_1 .module .text2 {
+  background-image: url(../img/product/03digitalProducts/01_text2.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.pro3_1 .module .bg1 {
+  background-image: url(../img/product/03digitalProducts/01_1.jpg);
+}
+.pro3_1 .module .bg2 {
+  background-image: url(../img/product/03digitalProducts/01_2.jpg);
+}
+.pro3_2 .bannerp1 {
+  background-image: url(../img/product/03digitalProducts/02_banner.jpg);
+}
+.pro3_2 .module .text1 {
+  background-image: url(../img/product/03digitalProducts/02_text1.jpg);
+}
+.pro3_2 .module .text2 {
+  background-image: url(../img/product/03digitalProducts/02_text2.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.pro3_2 .module .bg1 {
+  background-image: url(../img/product/03digitalProducts/02_1.jpg);
+}
+.pro3_2 .module .bg2 {
+  background-image: url(../img/product/03digitalProducts/02_2.jpg);
+}
+.pro4_1 .bannerp1 {
+  background-image: url(../img/product/04intelligentHome/01_banner.jpg);
+}
+.pro4_1 .module .text1 {
+  background-image: url(../img/product/04intelligentHome/01_text1.jpg);
+}
+.pro4_1 .module .text2 {
+  background-image: url(../img/product/04intelligentHome/01_text2.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.pro4_1 .module .bg1 {
+  background-image: url(../img/product/04intelligentHome/01_1.jpg);
+}
+.pro4_1 .module .bg2 {
+  background-image: url(../img/product/04intelligentHome/01_2.jpg);
+}
+.pro5_1 .bannerp1 {
+  background-image: url(../img/product/05transportationTool/01_banner.jpg);
+}
+.pro5_1 .module .text1 {
+  background-image: url(../img/product/05transportationTool/01_text1.jpg);
+}
+.pro5_1 .module .text2 {
+  background-image: url(../img/product/05transportationTool/01_text2.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.pro5_1 .module .text3 {
+  background-image: url(../img/product/05transportationTool/01_text2.png);
+  margin-top: -362px;
+  height: 900px;
+}
+.pro5_1 .module .bg1 {
+  background-image: url(../img/product/05transportationTool/01_1.jpg);
+}
+.pro5_1 .module .bg2 {
+  background-image: url(../img/product/05transportationTool/01_2.jpg);
+}
+.pro5_1 .module .bg3 {
+  background-image: url(../img/product/05transportationTool/01_2.jpg);
 }
