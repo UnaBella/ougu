@@ -104,9 +104,9 @@
 				<div class="col">
 					<h4>联络我们</h4>
 					<ul>
-						<li><a href="javascript:;">大连高新园区黄浦路610号</a></li>
-						<li><a href="javascript:;">0411-39750879（传真）</a></li>
-						<li><a href="javascript:;">0411-39750878</a></li>
+						<li>大连高新园区黄浦路610号</li>
+						<li>0411-39750879（传真</li>
+						<li>0411-39750878</li>
 					</ul>
 				</div>
 
@@ -131,6 +131,30 @@
 				pagination : '.pagination',
 				paginationClickable :true
 			});
+
+		};
+
+		window.onscroll = function () {
+			var _header = document.querySelector('.header');
+			if(getScrollTop() > 0){
+				_header.className = 'header bg-blank';
+			}else {
+				_header.className = 'header';
+			}
+		};
+
+		function getScrollTop()
+		{
+			var scrollTop=0;
+			if(document.documentElement&&document.documentElement.scrollTop)
+			{
+				scrollTop=document.documentElement.scrollTop;
+			}
+			else if(document.body)
+			{
+				scrollTop=document.body.scrollTop;
+			}
+			return scrollTop;
 		}
 	</script>
 </html>
