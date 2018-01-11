@@ -5,6 +5,9 @@
   height: 0;
   clear: both;
 }
+body .bg-blank {
+  background: #131313;
+}
 .fl {
   float: left;
 }

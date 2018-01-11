@@ -7,7 +7,9 @@
 		<link href="css/base.css" rel="stylesheet">
 		<link href="css/index.css" rel="stylesheet">
 		<link href="plugin/swiper-2.7.6/idangerous.swiper.css" rel="stylesheet">
+		<link rel="icon" href="http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/title.png" type="image/x-icon" >
 	</head>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 	<body>
 	<!--header start-->
 		<nav>
@@ -105,7 +107,7 @@
 					<h4>联络我们</h4>
 					<ul>
 						<li>大连高新园区黄浦路610号</li>
-						<li>0411-39750879（传真</li>
+						<li>0411-39750879（传真）</li>
 						<li>0411-39750878</li>
 					</ul>
 				</div>
@@ -134,27 +136,6 @@
 
 		};
 
-		window.onscroll = function () {
-			var _header = document.querySelector('.header');
-			if(getScrollTop() > 0){
-				_header.className = 'header bg-blank';
-			}else {
-				_header.className = 'header';
-			}
-		};
-
-		function getScrollTop()
-		{
-			var scrollTop=0;
-			if(document.documentElement&&document.documentElement.scrollTop)
-			{
-				scrollTop=document.documentElement.scrollTop;
-			}
-			else if(document.body)
-			{
-				scrollTop=document.body.scrollTop;
-			}
-			return scrollTop;
-		}
+		
 	</script>
 </html>
