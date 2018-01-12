@@ -1,3 +1,7 @@
+var H = document.body.scrollHeight;
+var k;
+var temp;
+var sss=90;
 window.onscroll = function () {
 			var _header = document.querySelector('.header');
 			if(getScrollTop() > 0){
@@ -5,6 +9,25 @@ window.onscroll = function () {
 			}else {
 				_header.className = 'header';
 			}
+			
+			var t = getScrollTop();
+//			var k = t/H;
+//			console.log(k);
+			
+			if (t>temp) {
+				console.log("向下（越来越大）")
+				var a = t-temp;
+				sss--;
+				var pos = "50%"+(parseInt(sss)*0.7)+"px";
+				$('.content .module .bg').css("background-position",pos)
+			} else{
+				console.log("向上")
+				var a = t-temp;
+				sss++;
+				var pos = "50%"+(parseInt(sss)*0.7)+"px";
+				$('.content .module .bg').css("background-position",pos)
+			}
+			temp = t;
 		};
 		function getScrollTop()
 		{

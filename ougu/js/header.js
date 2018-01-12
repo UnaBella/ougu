@@ -56,5 +56,4 @@ var a  = '<div class="headerhover" id="chh">'+
 							'</li></a>'+
 						'</ul>'+
 					'</div>'
-				console.log(a)
 				$('.header').append(a);
