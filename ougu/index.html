@@ -9,17 +9,17 @@
 		<link href="plugin/swiper-2.7.6/idangerous.swiper.css" rel="stylesheet">
 		<link rel="icon" href="http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/title.png" type="image/x-icon" >
 	</head>
-	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	
 	<body>
 	<!--header start-->
 		<nav>
-			<div class="header">
+			<div class="header" id="header">
 				<div class="auto">
 					<div class="logo fl"></div>
 					<ul class="fr clearfix">
 						<li class="on"><a href="index.html">关于我们</a></li>
-						<li><a href="C01_cuiJ.html">定制</a></li>
-						<li><a href="P01_Y01_cengY.html">产品</a></li>
+						<li id="clic"><a href="C01_cuiJ.html">定制</a></li>
+						<li id="clip"><a href="P01_Y01_cengY.html">产品</a></li>
 					</ul>
 				</div>
 			</div>
@@ -125,6 +125,9 @@
 
 	</body>
 	<script src="plugin/swiper-2.7.6/idangerous.swiper.min.js"></script>
+	<script src="js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/header.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 	<script>
 		window.onload = function() {
 			var mySwiper = new Swiper('.swiper-container',{
@@ -135,7 +138,5 @@
 			});
 
 		};
-
-		
 	</script>
 </html>
