@@ -15,6 +15,11 @@
   box-sizing: border-box;
   line-height: 1;
 }
+.content .module .text .auto {
+  width: 62.5%;
+  height: 100%;
+  position: relative;
+}
 .content .module .text h1 {
   font-size: 40px;
   margin-bottom: 60px;
@@ -26,7 +31,7 @@
 }
 .content .module .text .product {
   position: absolute;
-  left: 18.5%;
+  left: 0;
   bottom: 0;
 }
 .content .module .bg {
@@ -41,7 +46,7 @@
   color: #fff;
 }
 .cus1 .module .text1 {
-  padding: 95px 0 0 20%;
+  padding-top: 95px;
 }
 .cus1 .module .text1 .desc {
   width: 48.4%;
