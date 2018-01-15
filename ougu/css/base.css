@@ -14,6 +14,9 @@ body .bg-blank {
 .pt95 {
   padding-top: 95px;
 }
+.pt245 {
+  padding-top: 245px;
+}
 .fl {
   float: left;
 }
@@ -161,6 +164,10 @@ body .bg-blank {
 }
 .footer .nav {
   padding: 38px 0 0 30px;
+}
+.footer .ft {
+  display: flex;
+  justify-content: space-between;
 }
 .footer .col {
   float: left;

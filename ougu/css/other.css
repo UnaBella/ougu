@@ -40,16 +40,12 @@
   line-height: 44px;
   margin-bottom: 12px;
 }
-.content .module .text .textautoP1 .desc {
-  width: 60%;
-}
 .content .module .text .textautoPo .product {
   position: absolute;
   left: 0;
   bottom: 0;
 }
 .content .module .text .textautoPo .zi {
-  width: 50%;
   float: right;
   text-align: right;
 }
@@ -346,7 +342,7 @@
   background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/product/05transportationTool/01_2.jpg);
 }
 .pro5_1 .module .bg3 {
-  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/product/05transportationTool/01_2.jpg);
+  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/product/05transportationTool/01_3.jpg);
 }
 .privacy {
   height: 5500px;

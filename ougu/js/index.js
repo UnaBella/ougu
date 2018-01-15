@@ -18,13 +18,13 @@ window.onscroll = function () {
 				console.log("向下（越来越大）")
 				var a = t-temp;
 				sss--;
-				var pos = "50%"+(parseInt(sss)*0.7)+"px";
+				var pos = "50%"+(parseInt(sss)*0.8)+"px";
 				$('.content .module .bg').css("background-position",pos)
 			} else{
 				console.log("向上")
 				var a = t-temp;
 				sss++;
-				var pos = "50%"+(parseInt(sss)*0.7)+"px";
+				var pos = "50%"+(parseInt(sss)*0.8)+"px";
 				$('.content .module .bg').css("background-position",pos)
 			}
 			temp = t;
