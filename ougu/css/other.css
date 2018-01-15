@@ -1,5 +1,9 @@
 .content .banner {
   width: 100%;
+  height: 110vh;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: cover;
 }
 .content img {
   display: block;
@@ -15,24 +19,39 @@
   box-sizing: border-box;
   line-height: 1;
 }
-.content .module .text .auto {
+.content .module .text .textauto {
   width: 62.5%;
   height: 100%;
   position: relative;
+  min-width: 1400px;
+  margin: 0 auto;
 }
-.content .module .text h1 {
+.content .module .text .textauto h1 {
   font-size: 40px;
   margin-bottom: 60px;
 }
-.content .module .text h2,
-.content .module .text h3 {
+.content .module .text .textauto h2,
+.content .module .text .textauto h3 {
   font-size: 30px;
   margin-bottom: 8px;
 }
-.content .module .text .product {
+.content .module .text .textauto .desc {
+  font-size: 20px;
+  line-height: 44px;
+  margin-bottom: 12px;
+}
+.content .module .text .textautoP1 .desc {
+  width: 60%;
+}
+.content .module .text .textautoPo .product {
   position: absolute;
   left: 0;
   bottom: 0;
+}
+.content .module .text .textautoPo .zi {
+  width: 50%;
+  float: right;
+  text-align: right;
 }
 .content .module .bg {
   height: 848px;
@@ -45,28 +64,8 @@
   font-size: 40px;
   color: #fff;
 }
-.cus1 .module .text1 {
-  padding-top: 95px;
-}
-.cus1 .module .text1 .desc {
-  width: 48.4%;
-  font-size: 20px;
-  line-height: 44px;
-  margin-bottom: 12px;
-}
-.cus1 .module .text2 {
-  height: 538px;
-  padding-top: 90px;
-  text-align: right;
-}
-.cus1 .module .text2 .zi {
-  width: 31%;
-  float: right;
-}
-.cus1 .module .text2 .zi .desc {
-  width: 100%;
-  font-size: 20px;
-  line-height: 44px;
+.cus1 .banner1 {
+  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/customization/01_banner.jpg);
 }
 .cus1 .module .bg1 {
   background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/customization/01_1.jpg);
@@ -76,9 +75,6 @@
 }
 .cus2 .banner1 {
   background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/customization/02_banner.jpg);
-}
-.cus2 .module .text1 {
-  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/customization/02_text1.jpg);
 }
 .cus2 .module .text2 {
   background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/customization/02_text2.png);

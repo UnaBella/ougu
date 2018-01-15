@@ -5,8 +5,14 @@
   height: 0;
   clear: both;
 }
+body {
+  background: #131313;
+}
 body .bg-blank {
   background: #131313;
+}
+.pt95 {
+  padding-top: 95px;
 }
 .fl {
   float: left;
@@ -18,7 +24,7 @@ body .bg-blank {
   display: none;
 }
 .auto {
-  width: 1200px;
+  width: 1400px;
   margin: 0 auto;
 }
 .header {
@@ -31,7 +37,7 @@ body .bg-blank {
   background: #13131333;
 }
 .header .auto {
-  width: 1200px;
+  width: 1400px;
   height: 100%;
 }
 .header .auto .logo {
@@ -194,6 +200,6 @@ body .bg-blank {
   background: #131313;
 }
 .content .bread-index .auto {
-  width: 1200px;
+  width: 1400px;
   padding-left: 30px;
 }
