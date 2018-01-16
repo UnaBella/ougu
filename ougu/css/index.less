@@ -3,7 +3,7 @@
   background: #131313;
 }
 .banner{
-  height:930px;
+  height:1000px;
   .swiper-container{
     height:100%;
   }
@@ -60,9 +60,33 @@
     .text{
       width: 100%;
       height:538px;
-      background-repeat: no-repeat;
-      background-position: center 0;
-      background-size:cover;
+      background: #131313;
+      color: #fff;
+      .textauto{
+        width: 62.5%;
+        height: 100%;
+        position: relative;
+        min-width: 1400px;
+        margin: 0 auto;
+        text-align: center;
+        h2{
+          font-size: 30px;
+          font-weight: 100;
+        }
+        h3{
+          font-size: 20px;
+          font-weight: 100;
+          line-height: 1;margin-bottom:15px;
+        }
+        .desc{
+            font-size: 18px;
+            line-height: 2.5;
+            font-weight: 100;
+        }
+      }
+//    background-repeat: no-repeat;
+//    background-position: center 0;
+//    background-size:cover;
     }
     .bg{
       height: 848px;
@@ -73,20 +97,56 @@
       background-attachment: fixed;
       text-align: center;
       font-size: 40px;
-      color:#fff
+      color:#fff;
+      font-weight: 100;
     }
   }
+  .bigevent{
+      .textbig{
+          height: 2800px;
+          .textauto{
+              background: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/bigeventicon.png) no-repeat top center;
+              h3{
+                  font-size: 24px;
+                  font-weight: 100;
+              }
+              .desc{
+                  font-size: 18px;
+              }
+              .bleft,.bright{
+                  width: 42%;
+                  height: 192px;
+              }
+              .bleft{
+                  text-align: right;
+              }
+              .bright{
+                  text-align: left;
+                  margin-left: 58%;
+              }
+          }
+          
+      }
+  }
+  .brand{
+      .textauto{
+          .img{
+              width: 1200px;
+                   margin: 25px auto 5px;
+          }
+      }
+  }
   .module1{
-    .text{
-      background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/text1.jpg");
-    }
+//  .text{
+//    background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/text1.jpg");
+//  }
     .bg{
       background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/bg1.jpg");
     }
   }
   .module2{
     .text{
-      background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/text2.jpg");
+//    background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/text2.jpg");
     }
     .bg{
       background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/bg2.jpg");
@@ -102,28 +162,28 @@
       background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/bg4.jpg");
     }
   }
-  .bigevent{
-    height:2810px;
-    background: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/bigevent.jpg") no-repeat center 0;
-    -webkit-background-size:cover;
-    background-size:cover;
-  }
-  .brands{
-    height:612px;
-    background: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/brands.jpg") no-repeat center 0;
-    -webkit-background-size:cover;
-    background-size:cover;
-  }
-  .bread-index{
-    height:50px;
-    line-height:50px;
-    color: #fff;
-    font-size:24px;
-    background: #131313;
-
-    .auto{
-      width:@base_w;
-      padding-left: 30px;
-    }
-  }
+//.bigevent{
+//  height:2810px;
+//  background: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/bigevent.jpg") no-repeat center 0;
+//  -webkit-background-size:cover;
+//  background-size:cover;
+//}
+//.brands{
+//  height:612px;
+//  background: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/brands.jpg") no-repeat center 0;
+//  -webkit-background-size:cover;
+//  background-size:cover;
+//}
+//.bread-index{
+//  height:50px;
+//  line-height:50px;
+//  color: #fff;
+//  font-size:24px;
+//  background: #131313;
+//
+//  .auto{
+//    width:@base_w;
+//    padding-left: 30px;
+//  }
+//}
 }
