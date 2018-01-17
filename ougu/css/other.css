@@ -2,7 +2,7 @@
   width: 100%;
   height: 1000px;
   background-repeat: no-repeat;
-  background-position: center 0;
+  background-position: center;
   background-size: cover;
 }
 .content img {
@@ -104,7 +104,7 @@
   background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/customization/03_2.jpg);
 }
 .cus4 .banner1 {
-  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/customization/04_banner.jpg);
+  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/customization/04_banner.png);
 }
 .cus4 .module .text1 {
   background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/customization/04_text1.jpg);
@@ -179,7 +179,7 @@
   background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/product/01audioVisual/01_3.jpg);
 }
 .pro1_2 .bannerp1 {
-  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/product/01audioVisual/02_banner.jpg);
+  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/product/01audioVisual/02_banner.png);
 }
 .pro1_2 .module .text1 {
   background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/product/01audioVisual/02_text1.jpg);
@@ -272,7 +272,7 @@
   background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/product/02telematics/01_2.jpg);
 }
 .pro3_1 .bannerp1 {
-  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/product/03digitalProducts/01_banner.jpg);
+  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/product/03digitalProducts/01_banner.png);
 }
 .pro3_1 .module .text1 {
   background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/product/03digitalProducts/01_text1.jpg);
@@ -323,7 +323,7 @@
   background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/product/04intelligentHome/01_2.jpg);
 }
 .pro5_1 .bannerp1 {
-  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/product/05transportationTool/01_banner.jpg);
+  background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/product/05transportationTool/01_banner.png);
 }
 .pro5_1 .module .text1 {
   background-image: url(http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/product/05transportationTool/01_text1.jpg);

@@ -10,7 +10,7 @@
 .banner .swiper-slide {
   height: 100%;
   background-repeat: no-repeat;
-  background-position: center 0;
+  background-position: center;
   background-size: cover ;
 }
 .banner .swiper-slide a {
@@ -22,13 +22,13 @@
   background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/banner1.jpg");
 }
 .banner .slide2 {
-  background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/banner2.jpg");
+  background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/banner2.png");
 }
 .banner .slide3 {
   background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/banner3.jpg");
 }
 .banner .slide4 {
-  background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/banner4.jpg");
+  background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/banner4.png");
 }
 .banner .pagination {
   position: absolute;
@@ -106,7 +106,7 @@
   font-weight: 100;
 }
 .content .bigevent .textbig .textauto .desc {
-  font-size: 18px;
+  font-size: 16px;
 }
 .content .bigevent .textbig .textauto .bleft,
 .content .bigevent .textbig .textauto .bright {

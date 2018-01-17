@@ -46,7 +46,7 @@ body .bg-blank {
   background: #13131333;
 }
 .header .auto {
-  width: 1200px;
+  width: 1100px;
   height: 100%;
 }
 .header .auto .logo {
@@ -54,7 +54,6 @@ body .bg-blank {
   height: 34px;
   background: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/logo.png") no-repeat 0 0 / contain;
   margin-top: 18px;
-  margin-left: 100px;
 }
 .header .auto ul {
   margin-right: 0px;
@@ -71,7 +70,7 @@ body .bg-blank {
   color: #fff;
   font-size: 16px;
 }
-.header .auto ul li.on a {
+.header .auto ul li:hover a {
   font-size: 18px;
 }
 .header .auto ul li.on:after {
@@ -170,7 +169,7 @@ body .bg-blank {
   padding-bottom: 45px;
 }
 .footer .nav {
-  padding: 38px 0 0 30px;
+  padding: 38px 0 0 150px;
 }
 .footer .ft {
   display: flex;
@@ -218,5 +217,5 @@ body .bg-blank {
 .content .bread-index .auto {
   font-weight: 100;
   width: 1400px;
-  padding-left: 30px;
+  padding-left: 150px;
 }

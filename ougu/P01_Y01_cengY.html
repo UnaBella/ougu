@@ -78,7 +78,7 @@
 				</div>
 			</div>
 			<div class="bg bg3">
-				聆听来自异另一国度的极致天籁
+				聆听来自另一国度的极致天籁
 			</div>
 		</div>
 		<div class="bread-index">
@@ -144,54 +144,104 @@
 	<script src="js/header.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
-//		document.body.scrollTop = 0;
-////			window.scrollTo(0,0);
-//var H = document.body.scrollHeight;
-//var k;
-//var temp;
-//var sss=100;
-//window.onscroll = function (){
-//	var _header = document.querySelector('.header');
-//			if(getScrollTop() > 0){
-//				_header.className = 'header bg-blank';
-//			}else {
-//				_header.className = 'header';
-//			}
-//			
-//			
-//			
-//	var t = getScrollTop();
-//	var k = t/H;
-//	console.log(k);
-//	
-//	if (t>temp) {
-//		console.log("向下（越来越大）")
-//		var a = t-temp;
+		document.body.scrollTop = 0;
+//			window.scrollTo(0,0);
+var H = document.body.scrollHeight;
+var k;
+var temp;
+var sss1=20;
+var sss2=20;
+var sss3=20;
+var sss4=20;
+window.onscroll = function (){
+	var _header = document.querySelector('.header');
+			if(getScrollTop() > 0){
+				_header.className = 'header bg-blank';
+			}else {
+				_header.className = 'header';
+			}
+			
+			
+			
+	var t = getScrollTop();
+	var k = t/H;
+	console.log(k);
+	
+	if (t>temp) {
+		console.log("向下（越来越大）")
+		var a = t-temp;
+		downward(a);
 //			sss--;
 //	var pos = "50%"+(parseInt(sss))+"px";
 //	$('.content .module .bg').css("background-position",pos)
-//	} else{
-//		console.log("向上")
-//		var a = t-temp;
+	} else{
+		console.log("向上")
+		var a = t-temp;
+	upward(a);
 //		sss++;
-////		var pos = "50%"+(parseInt(sss))+"px";
+//		var pos = "50%"+(parseInt(sss))+"px";
 //		$('.content .module .bg').css("background-position",pos)
-//	}
-//	temp = t;
-//}
-//function which () {
-//	sss--;
-//	var pos = "50%"+(parseInt(sss))+"px";
-//	var offsetTop = getScrollTop();
-//	if (offsetTop > 1400 && offsetTop <2400) {
-//		$('.content .module .bg1').css("background-position",pos)
-//	} else if (offsetTop > 2800 && offsetTop <3800) {
-//		$('.content .module .bg2').css("background-position",pos)
-//	} else if (offsetTop > 4000 && offsetTop <4900) {
-//		$('.content .module .bg3').css("background-position",pos)
-//	} else if (offsetTop > 5200 && offsetTop <6100) {
-//		$('.content .module .bg4').css("background-position",pos)
-//	}
-//}
+	}
+	temp = t;
+}
+function upward () {
+	var offsetTop = getScrollTop();
+	if (offsetTop > 550 && offsetTop <2800) {
+		sss1++;
+		var pos = "50%"+(parseInt(sss1))+"px";
+		$('.content .module .bg1').css("background-position",pos)
+	} 
+	 if (offsetTop > 1900 && offsetTop <3800) {
+		sss2++;
+		var pos = "50%"+(parseInt(sss2))+"px";
+		$('.content .module .bg2').css("background-position",pos)
+	}
+	if (offsetTop > 3400 && offsetTop <5300) {
+		sss3++;
+		var pos = "50%"+(parseInt(sss3))+"px";
+		$('.content .module .bg3').css("background-position",pos)
+	} 
+	 if (offsetTop > 4900 && offsetTop <6500) {
+		sss4++;
+		var pos = "50%"+(parseInt(sss4))+"px";
+		$('.content .module .bg4').css("background-position",pos)
+	}
+}
+function downward () {
+	var offsetTop = getScrollTop();
+	if (offsetTop > 500 && offsetTop <2800) {
+		sss1--;
+		var pos = "50%"+(parseInt(sss1))+"px";
+		$('.content .module .bg1').css("background-position",pos)
+	} 
+	 if (offsetTop > 1900 && offsetTop <3800) {
+		sss2--;
+		var pos = "50%"+(parseInt(sss2))+"px";
+		$('.content .module .bg2').css("background-position",pos)
+	}
+	if (offsetTop > 3400 && offsetTop <5300) {
+		sss3--;
+		var pos = "50%"+(parseInt(sss3))+"px";
+		$('.content .module .bg3').css("background-position",pos)
+	} 
+	 if (offsetTop > 4900 && offsetTop <6500) {
+		sss4--;
+		var pos = "50%"+(parseInt(sss4))+"px";
+		$('.content .module .bg4').css("background-position",pos)
+	}
+}
+function getScrollTop()
+		{
+			var scrollTop=0;
+			if(document.documentElement&&document.documentElement.scrollTop)
+			{
+				scrollTop=document.documentElement.scrollTop;
+			}
+			else if(document.body)
+			{
+				scrollTop=document.body.scrollTop;
+			}
+			return scrollTop;
+		}
 </script>
 </html>
