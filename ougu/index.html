@@ -54,7 +54,7 @@
 速增长，近3亿年销售额，资金实力与架构规模堪称业界翘楚！</div>
 				</div>
 			</div>
-			<div class="bg">
+			<div class="bg bg1">
 				X-BOX音乐耳机  |  让您的耳朵沉浸在无限精彩的音乐天堂中
 			</div>
 		</div>
@@ -68,7 +68,7 @@
 					<h3 class="pt20">并联合国内外40余个品牌战略伙伴</h3>
 				</div>
 			</div>
-			<div class="bg">
+			<div class="bg bg2">
 				BLUE BONE  |  崔健主题定制系列
 			</div>
 		</div>
@@ -148,7 +148,7 @@
 			
 		</div>-->
 		<!--<div class="module module3">-->
-			<div class="bg">
+			<div class="bg bg3">
 				THOMSON  |  引领潮流的视听巨人
 			</div>
 		</div>
@@ -163,7 +163,7 @@
 					<div class="desc">卓越亚马逊、京东商城、苏宁易购、亿佰购物。</div>
 				</div>
 			</div>
-			<div class="bg">
+			<div class="bg bg4">
 				STRATUS  |  美学与声学的完美结合
 			</div>
 		</div>
@@ -228,7 +228,7 @@
 	<script src="plugin/swiper-2.7.6/idangerous.swiper.min.js"></script>
 	<script src="js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/header.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<!--<script src="js/index.js" type="text/javascript" charset="utf-8"></script>-->
 	<script>
 		window.onload = function() {
 			var mySwiper = new Swiper('.swiper-container',{
@@ -239,5 +239,123 @@
 			});
 
 		};
+		var sss1=20;
+		var sss2=20;
+		var sss3=20;
+		var sss4=20;
+		var temp;
+window.onscroll = function (){
+	var _header = document.querySelector('.header');
+			if(getScrollTop() > 0){
+				_header.className = 'header bg-blank';
+			}else {
+				_header.className = 'header';
+			}
+			
+			
+			
+	var t = getScrollTop();
+	
+	if (t>temp) {
+		console.log("向下（越来越大）")
+		var a = t-temp;
+		downward();
+	} else{
+		console.log("向上")
+		var a = t-temp;
+		upward(a);
+	}
+	temp = t;
+}
+function upward () {
+	var offsetTop = getScrollTop();
+	if (offsetTop > 550 && offsetTop <2800) {
+		sss1++;
+		var pos = "50%"+(parseInt(sss1))+"px";
+		$('.content .module .bg1').css("background-position",pos)
+	} 
+	 if (offsetTop > 1900 && offsetTop <3800) {
+		sss2++;
+		var pos = "50%"+(parseInt(sss2))+"px";
+		$('.content .module .bg2').css("background-position",pos)
+	}
+	if (offsetTop > 5600 && offsetTop <7400) {
+		sss3++;
+		var pos = "50%"+(parseInt(sss3))+"px";
+		$('.content .module .bg3').css("background-position",pos)
+	} 
+	 if (offsetTop > 7000 && offsetTop <8355) {
+		sss4++;
+		var pos = "50%"+(parseInt(sss4))+"px";
+		$('.content .module .bg4').css("background-position",pos)
+	}
+}
+function downward () {
+	var offsetTop = getScrollTop();
+	if (offsetTop > 550 && offsetTop <2800) {
+		sss1--;
+		var pos = "50%"+(parseInt(sss1))+"px";
+		$('.content .module .bg1').css("background-position",pos)
+	} 
+	 if (offsetTop > 1900 && offsetTop <3800) {
+		sss2--;
+		var pos = "50%"+(parseInt(sss2))+"px";
+		$('.content .module .bg2').css("background-position",pos)
+	}
+	if (offsetTop > 5600 && offsetTop <7400) {
+		sss3--;
+		var pos = "50%"+(parseInt(sss3))+"px";
+		$('.content .module .bg3').css("background-position",pos)
+	} 
+	 if (offsetTop > 7000 && offsetTop <8355) {
+		sss4--;
+		var pos = "50%"+(parseInt(sss4))+"px";
+		$('.content .module .bg4').css("background-position",pos)
+	}
+}
+function getScrollTop()
+		{
+			var scrollTop=0;
+			if(document.documentElement&&document.documentElement.scrollTop)
+			{
+				scrollTop=document.documentElement.scrollTop;
+			}
+			else if(document.body)
+			{
+				scrollTop=document.body.scrollTop;
+			}
+			return scrollTop;
+		}
+		function getE(id) {
+			return document.getElementById(id);
+		}
+		var clic = getE("clic");
+		var clip = getE("clip");
+		var chh = getE("chh");
+		var phh = getE("phh");
+		clic.onmouseover = function  () {
+			chh.style.display = "block";
+		}
+		clic.onmouseout = function() {
+			chh.style.display = "none";
+		}
+		chh.onmouseover = function() {
+			this.style.display = "block";
+		}
+		chh.onmouseout = function() {
+			this.style.display = "none";
+		}
+		clip.onmouseover = function  () {
+			phh.style.display = "block";
+		}
+		clip.onmouseout = function() {
+			phh.style.display = "none";
+		}
+		phh.onmouseover = function() {
+			this.style.display = "block";
+		}
+		phh.onmouseout = function() {
+			this.style.display = "none";
+		}
 	</script>
 </html>
