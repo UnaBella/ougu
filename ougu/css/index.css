@@ -19,16 +19,19 @@
   height: 100%;
 }
 .banner .slide1 {
-  background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/banner1.jpg");
+  background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/banner1.png");
 }
 .banner .slide2 {
-  background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/banner2.png");
+  background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/banner2.jpg");
 }
 .banner .slide3 {
   background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/banner3.jpg");
 }
 .banner .slide4 {
-  background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/banner4.png");
+  background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/banner4.jpg");
+}
+.banner .slide5 {
+  background-image: url("http://zimeitisucai.oss-cn-beijing.aliyuncs.com/resource/ouguWebsite/img/homepage/banner5.jpg");
 }
 .banner .pagination {
   position: absolute;
